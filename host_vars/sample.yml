@@ -1,0 +1,8 @@
+---
+idrac_dhcp: yes
+netconfig:
+  interfaces:
+    em1:
+      bootproto: dhcp
+      onboot: yes
+      type: access
